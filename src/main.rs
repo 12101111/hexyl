@@ -74,7 +74,7 @@ impl Byte {
             AsciiPrintable => self.0 as char,
             AsciiWhitespace if self.0 == 0x20 => ' ',
             AsciiWhitespace => '_',
-            AsciiOther => '•',
+            AsciiOther => '·',
             NonAscii => '×',
         }
     }
