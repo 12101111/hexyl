@@ -22,16 +22,16 @@ of bytes (NULL bytes, printable ASCII characters, ASCII whitespace characters, o
 ### On Debian-based systems
 
 ``` bash
-wget "https://github.com/sharkdp/hexyl/releases/download/v0.4.0/hexyl_0.4.0_amd64.deb"
-sudo dpkg -i hexyl_0.4.0_amd64.deb
+wget "https://github.com/sharkdp/hexyl/releases/download/v0.5.1/hexyl_0.5.1_amd64.deb"
+sudo dpkg -i hexyl_0.5.1_amd64.deb
 ```
 
 ### On Arch Linux
 
-You can install `hexyl` from [this AUR package](https://aur.archlinux.org/packages/hexyl/):
+You can install `hexyl` from [the official package repository](https://www.archlinux.org/packages/community/x86_64/hexyl/):
 
 ```
-yay -S hexyl
+pacman -S hexyl
 ```
 
 ### On macOS
@@ -63,7 +63,7 @@ you use a terminal that supports ANSI escape sequences (like PowerShell on Windo
 
 ### Via cargo
 
-If you have Rust 1.29 or higher, you can install `hexyl` from source via `cargo`:
+If you have Rust 1.31 or higher, you can install `hexyl` from source via `cargo`:
 ```
 cargo install hexyl
 ```
